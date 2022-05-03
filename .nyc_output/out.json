@@ -1,6 +1,6 @@
 {
-  "/Users/bulut/2021/spoko_project_end_user_client/src/components/Products.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/components/Products.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/components/Products.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/components/Products.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -8,7 +8,7 @@
           "column": 17
         },
         "end": {
-          "line": 33,
+          "line": 27,
           "column": 1
         }
       },
@@ -49,57 +49,67 @@
         },
         "end": {
           "line": 9,
-          "column": 40
+          "column": 39
         }
       },
       "5": {
         "start": {
           "line": 12,
-          "column": 2
+          "column": 23
         },
         "end": {
-          "line": 14,
-          "column": 9
+          "line": 12,
+          "column": 63
         }
       },
       "6": {
         "start": {
-          "line": 13,
-          "column": 4
+          "line": 14,
+          "column": 2
         },
         "end": {
-          "line": 13,
-          "column": 20
+          "line": 16,
+          "column": 8
         }
       },
       "7": {
         "start": {
-          "line": 17,
+          "line": 15,
           "column": 4
         },
         "end": {
-          "line": 25,
-          "column": 5
+          "line": 15,
+          "column": 19
         }
       },
       "8": {
         "start": {
-          "line": 19,
-          "column": 8
+          "line": 18,
+          "column": 22
         },
         "end": {
-          "line": 23,
-          "column": 10
+          "line": 24,
+          "column": 4
         }
       },
       "9": {
         "start": {
-          "line": 28,
-          "column": 0
+          "line": 19,
+          "column": 4
         },
         "end": {
-          "line": 32,
-          "column": 1
+          "line": 23,
+          "column": 5
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 61
         }
       }
     },
@@ -122,7 +132,7 @@
             "column": 23
           },
           "end": {
-            "line": 33,
+            "line": 27,
             "column": 1
           }
         },
@@ -156,46 +166,46 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 12,
+            "line": 14,
             "column": 12
           },
           "end": {
-            "line": 12,
+            "line": 14,
             "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 12,
+            "line": 14,
             "column": 18
           },
           "end": {
-            "line": 14,
+            "line": 16,
             "column": 3
           }
         },
-        "line": 12
+        "line": 14
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
             "line": 18,
-            "column": 6
+            "column": 35
           },
           "end": {
             "line": 18,
-            "column": 7
+            "column": 36
           }
         },
         "loc": {
           "start": {
             "line": 18,
-            "column": 19
+            "column": 48
           },
           "end": {
             "line": 24,
-            "column": 7
+            "column": 3
           }
         },
         "line": 18
@@ -204,28 +214,29 @@
     "branchMap": {},
     "s": {
       "0": 3,
-      "1": 12,
-      "2": 12,
+      "1": 14,
+      "2": 14,
       "3": 6,
-      "4": 5,
-      "5": 12,
-      "6": 6,
-      "7": 12,
-      "8": 0,
-      "9": 12
+      "4": 6,
+      "5": 14,
+      "6": 14,
+      "7": 6,
+      "8": 14,
+      "9": 24,
+      "10": 14
     },
     "f": {
-      "0": 12,
+      "0": 14,
       "1": 6,
       "2": 6,
-      "3": 0
+      "3": 24
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ac5f16f7aa0a03b08435332981a8dab92d664e07"
+    "hash": "49910e60de39657e35ce2853cd06e12823edc4b2"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/components/Header.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/components/Header.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/components/Header.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/components/Header.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -284,10 +295,10 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "e4b475ecde6e2f843618e30fb0ef3314cff67dab"
+    "hash": "b0e88d1c180c7c3d06940dd968af3eedcb9884e6"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -346,10 +357,10 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "cb9e33188023c1d064439eb91114a45603dcb596"
+    "hash": "cb8029abb0ecce2c6b4b44d41f141ddfd9d9ecfc"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/index.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/index.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js",
     "statementMap": {
       "0": {
         "start": {
@@ -381,6 +392,6 @@
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "deaffac37b29f0c57fa7e42cf2ce61997b0700d0"
+    "hash": "7c8e731bd4cc34f700a6cad6ff919c39f9cdbffb"
   }
 }

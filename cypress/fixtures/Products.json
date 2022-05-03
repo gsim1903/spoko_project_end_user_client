@@ -1,5 +1,7 @@
 {
-  "products": [{
+  "products": [
+    
+    {
       "id": 1,
       "name":"Soccer Shoes",
       "category":"Shoes",
