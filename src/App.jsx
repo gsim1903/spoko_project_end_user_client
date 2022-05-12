@@ -10,7 +10,7 @@ import Footer from './Components/Footer.jsx'
 const App = () => {
   return (
     <>
-      <h1 id="name">Spoko</h1>
+      
       <HeaderImage title="NewsChannel" subTitle="Latest Updates" />
 
       <Navbar />

@@ -1,19 +1,28 @@
 import React, { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
-import ReviewOrder from './ReviewOrder'
+import ReviewOrder from "./ReviewOrder";
+import ArticlesAPI from "../modules/ArticlesAPI";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
-
-  const fetchProducts = async () => {
-    const response = await axios.get("https:reqres.in/api/products");
-    setProducts(response.data.products);
+  //const [products, setProducts] = useState([]);
+  const { products } = useSelector((state) => state);
+  const displayProducts = (products) => {
+    let productsArray = [];
+    Object.entries(products).map((category) => {
+      productsArray.push(category[1]);
+    });
+    return productsArray.flat();
   };
+  // const fetchProducts = async () => {
+  //   const response = await axios.get("https:reqres.in/api/products");
+  //   setProducts(response.data.products);
+  // };
 
   useEffect(() => {
-    fetchProducts();
+    ArticlesAPI.fetchProducts();
   }, []);
   const addToOrder = async (id) => {
     const response = await axios.post("https:reqres.in/api/orders", {
@@ -23,7 +32,8 @@ const Products = () => {
     // Need to save order ID here
   };
 
-  const productlist = products.map((product) => {
+  //const productlist = products.map((product) => {
+  const productlist = displayProducts(products).map((product) => {
     return (
       <Card key={product.id}>
         <Item.Content>
@@ -49,19 +59,24 @@ const Products = () => {
   });
   return (
     <>
-
+      <div
+        style={{
+          position: "absolute",
+          left: 30,
+        }}
+      >
+        <ReviewOrder />
+      </div>
+      <br />
       <Container>
-        <h1 data-cy="name">Spoko</h1>
+        <br />
         <List inverted data-cy="products-list" size="big">
           {productlist}
         </List>
       </Container>
       <ToastContainer />
-      <ReviewOrder />
     </>
   );
 };
-
-
 
 export default Products;

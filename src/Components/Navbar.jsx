@@ -31,8 +31,7 @@ const Navbar = () => {
           data-cy="product-tab"
           name="Shop"
           as={NavLink}
-          to={{ pathname: "/products" }
-        }
+          to={{ pathname: "/products" }}
         />  
       </Menu>
     </Segment>

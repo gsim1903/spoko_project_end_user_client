@@ -10,6 +10,11 @@ const rootReducer = (state, action) => {
         ...state,
         activeArticle: action.payload,
       };
+    case "SET_PRODUCTS":
+      return {
+        ...state,
+        products: action.payload,
+      };
 
     default:
       return { ...state };

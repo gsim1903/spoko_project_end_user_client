@@ -12,6 +12,10 @@ const ArticlesAPI = {
     const response = await SpokoAPI.get(`/article/${id}`);
     dispatch({ type: "SET_ACTIVE_ARTICLE", payload: response.data.article });
   },
+  async fetchProducts() {
+    const response = await SpokoAPI.get("/products/");
+    dispatch({ type: "SET_PRODUCTS", payload: response.data.products });
+  },
 
   async getLocation() {
     const position = await fetchUserCoordinates();

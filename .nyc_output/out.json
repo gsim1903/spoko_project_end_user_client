@@ -1,6 +1,6 @@
 {
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Navbar.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Navbar.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Navbar.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Navbar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -8,7 +8,7 @@
           "column": 15
         },
         "end": {
-          "line": 40,
+          "line": 39,
           "column": 1
         }
       },
@@ -18,7 +18,7 @@
           "column": 2
         },
         "end": {
-          "line": 39,
+          "line": 38,
           "column": 4
         }
       }
@@ -42,7 +42,7 @@
             "column": 21
           },
           "end": {
-            "line": 40,
+            "line": 39,
             "column": 1
           }
         },
@@ -51,18 +51,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 68
+      "0": 9,
+      "1": 9
     },
     "f": {
-      "0": 68
+      "0": 9
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d5811d13e4255b1a5d23b8fef81045eeeefad544"
+    "hash": "6051610937f55c77c7b4574fd7895509bcca5650"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -113,18 +113,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 68
+      "0": 9,
+      "1": 9
     },
     "f": {
-      "0": 68
+      "0": 9
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "333c8101a23a8960edca2eae14967d0f2992de2b"
+    "hash": "578e62b98730d9e273999abcc1dab0c55f82ba39"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/initialState.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/initialState.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/initialState.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/initialState.js",
     "statementMap": {
       "0": {
         "start": {
@@ -132,7 +132,7 @@
           "column": 21
         },
         "end": {
-          "line": 3,
+          "line": 4,
           "column": 1
         }
       }
@@ -140,15 +140,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 68
+      "0": 9
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3f4c275c93c509de7f42c8f466d8dbcd9c0bde1a"
+    "hash": "488b7951c40f97c8f7d8cbd740b79ffd753afc7f"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
     "statementMap": {
       "0": {
         "start": {
@@ -156,7 +156,7 @@
           "column": 20
         },
         "end": {
-          "line": 17,
+          "line": 22,
           "column": 1
         }
       },
@@ -166,7 +166,7 @@
           "column": 2
         },
         "end": {
-          "line": 16,
+          "line": 21,
           "column": 3
         }
       },
@@ -192,11 +192,21 @@
       },
       "4": {
         "start": {
-          "line": 15,
+          "line": 14,
           "column": 6
         },
         "end": {
-          "line": 15,
+          "line": 17,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
           "column": 26
         }
       }
@@ -220,7 +230,7 @@
             "column": 39
           },
           "end": {
-            "line": 17,
+            "line": 22,
             "column": 1
           }
         },
@@ -235,7 +245,7 @@
             "column": 2
           },
           "end": {
-            "line": 16,
+            "line": 21,
             "column": 3
           }
         },
@@ -263,11 +273,21 @@
           },
           {
             "start": {
-              "line": 14,
+              "line": 13,
               "column": 4
             },
             "end": {
-              "line": 15,
+              "line": 17,
+              "column": 8
+            }
+          },
+          {
+            "start": {
+              "line": 19,
+              "column": 4
+            },
+            "end": {
+              "line": 20,
               "column": 26
             }
           }
@@ -276,27 +296,29 @@
       }
     },
     "s": {
-      "0": 68,
-      "1": 95,
-      "2": 27,
+      "0": 9,
+      "1": 18,
+      "2": 0,
       "3": 0,
-      "4": 68
+      "4": 9,
+      "5": 9
     },
     "f": {
-      "0": 95
+      "0": 18
     },
     "b": {
       "0": [
-        27,
         0,
-        68
+        0,
+        9,
+        9
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b3a81a7384cd23fa4030cbd658c02aa3cde18b45"
+    "hash": "c36cbdbf47a8954c9e31883f6e57da309d28cd1e"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/configureStore.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/configureStore.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/configureStore.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/configureStore.js",
     "statementMap": {
       "0": {
         "start": {
@@ -312,15 +334,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 68
+      "0": 9
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "853babf3469969ed8ddce5f3053227fbd30e86c4"
+    "hash": "7ccce38705ed3d3a8a0212c3796f6e0085da539d"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/modules/SpokoAPI.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/SpokoAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -439,27 +461,27 @@
       }
     },
     "s": {
-      "0": 68,
-      "1": 68,
+      "0": 9,
+      "1": 9,
       "2": 0,
-      "3": 68
+      "3": 9
     },
     "f": {},
     "b": {
       "0": [
-        68,
+        9,
         0
       ],
       "1": [
-        68,
-        68
+        9,
+        9
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "818e4b47fefb8300643b19e35fbe95268eca5ff6"
+    "hash": "00d55e6b4ade101b82fc410760add3f666ca8e2e"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -477,7 +499,7 @@
           "column": 20
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 1
         }
       },
@@ -523,71 +545,91 @@
       },
       "6": {
         "start": {
-          "line": 17,
+          "line": 16,
           "column": 21
         },
         "end": {
-          "line": 17,
-          "column": 49
+          "line": 16,
+          "column": 53
         }
       },
       "7": {
         "start": {
-          "line": 19,
+          "line": 17,
           "column": 4
         },
         "end": {
-          "line": 38,
-          "column": 5
+          "line": 17,
+          "column": 72
         }
       },
       "8": {
         "start": {
-          "line": 20,
-          "column": 6
+          "line": 21,
+          "column": 21
         },
         "end": {
-          "line": 23,
-          "column": 9
+          "line": 21,
+          "column": 49
         }
       },
       "9": {
         "start": {
-          "line": 25,
-          "column": 31
+          "line": 23,
+          "column": 4
         },
         "end": {
-          "line": 33,
-          "column": 7
+          "line": 42,
+          "column": 5
         }
       },
       "10": {
         "start": {
-          "line": 34,
+          "line": 24,
           "column": 6
         },
         "end": {
-          "line": 37,
+          "line": 27,
           "column": 9
         }
       },
       "11": {
         "start": {
-          "line": 42,
-          "column": 2
+          "line": 29,
+          "column": 31
         },
         "end": {
-          "line": 46,
-          "column": 5
+          "line": 37,
+          "column": 7
         }
       },
       "12": {
         "start": {
-          "line": 43,
+          "line": 38,
+          "column": 6
+        },
+        "end": {
+          "line": 41,
+          "column": 9
+        }
+      },
+      "13": {
+        "start": {
+          "line": 46,
+          "column": 2
+        },
+        "end": {
+          "line": 50,
+          "column": 5
+        }
+      },
+      "14": {
+        "start": {
+          "line": 47,
           "column": 4
         },
         "end": {
-          "line": 45,
+          "line": 49,
           "column": 7
         }
       }
@@ -645,84 +687,108 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 16,
+            "line": 15,
             "column": 2
           },
           "end": {
-            "line": 16,
+            "line": 15,
             "column": 3
           }
         },
         "loc": {
           "start": {
-            "line": 16,
-            "column": 22
+            "line": 15,
+            "column": 24
           },
           "end": {
-            "line": 39,
+            "line": 18,
             "column": 3
           }
         },
-        "line": 16
+        "line": 15
       },
       "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 22
+          },
+          "end": {
+            "line": 43,
+            "column": 3
+          }
+        },
+        "line": 20
+      },
+      "4": {
         "name": "fetchUserCoordinates",
         "decl": {
           "start": {
-            "line": 41,
+            "line": 45,
             "column": 9
           },
           "end": {
-            "line": 41,
+            "line": 45,
             "column": 29
           }
         },
         "loc": {
           "start": {
-            "line": 41,
+            "line": 45,
             "column": 32
           },
           "end": {
-            "line": 47,
+            "line": 51,
             "column": 1
           }
         },
-        "line": 41
+        "line": 45
       },
-      "4": {
-        "name": "(anonymous_4)",
+      "5": {
+        "name": "(anonymous_5)",
         "decl": {
           "start": {
-            "line": 42,
+            "line": 46,
             "column": 21
           },
           "end": {
-            "line": 42,
+            "line": 46,
             "column": 22
           }
         },
         "loc": {
           "start": {
-            "line": 42,
+            "line": 46,
             "column": 42
           },
           "end": {
-            "line": 46,
+            "line": 50,
             "column": 3
           }
         },
-        "line": 42
+        "line": 46
       }
     },
     "branchMap": {
       "0": {
         "loc": {
           "start": {
-            "line": 19,
+            "line": 23,
             "column": 4
           },
           "end": {
-            "line": 38,
+            "line": 42,
             "column": 5
           }
         },
@@ -730,49 +796,52 @@
         "locations": [
           {
             "start": {
-              "line": 19,
+              "line": 23,
               "column": 4
             },
             "end": {
-              "line": 38,
+              "line": 42,
               "column": 5
             }
           },
           {
             "start": {
-              "line": 24,
+              "line": 28,
               "column": 11
             },
             "end": {
-              "line": 38,
+              "line": 42,
               "column": 5
             }
           }
         ],
-        "line": 19
+        "line": 23
       }
     },
     "s": {
-      "0": 68,
-      "1": 68,
-      "2": 27,
-      "3": 27,
+      "0": 9,
+      "1": 9,
+      "2": 0,
+      "3": 0,
       "4": 0,
       "5": 0,
-      "6": 0,
-      "7": 0,
+      "6": 9,
+      "7": 9,
       "8": 0,
       "9": 0,
       "10": 0,
       "11": 0,
-      "12": 0
+      "12": 0,
+      "13": 0,
+      "14": 0
     },
     "f": {
-      "0": 27,
+      "0": 0,
       "1": 0,
-      "2": 0,
+      "2": 9,
       "3": 0,
-      "4": 0
+      "4": 0,
+      "5": 0
     },
     "b": {
       "0": [
@@ -781,10 +850,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2cc88d4ac00ac82a461657d3ef121b43de57f38e"
+    "hash": "a467c6a42911db8fc8479e076a8cae86b3de92ce"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Articles.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Articles.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Articles.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Articles.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1065,34 +1134,34 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 81,
-      "2": 81,
-      "3": 54,
-      "4": 54,
-      "5": 54,
-      "6": 54,
-      "7": 54,
-      "8": 54,
-      "9": 27,
-      "10": 54,
-      "11": 162,
-      "12": 54
+      "0": 9,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
     },
     "f": {
-      "0": 81,
-      "1": 81,
-      "2": 54,
-      "3": 54,
-      "4": 27,
-      "5": 162
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "99c8116c5bdf43638a8419f82a87821747ab971e"
+    "hash": "f55d744c99acae0070257daf1e65e4c33d983858"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1241,25 +1310,25 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 6,
-      "5": 18,
-      "6": 6
+      "0": 9,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "f": {
-      "0": 6,
-      "1": 6,
-      "2": 18
+      "0": 0,
+      "1": 0,
+      "2": 0
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a20f5bc1224f8a9549b4225e32ba56317e26a2b2"
+    "hash": "bfc8de4843ff04e23c036387b4c18e389ce4811d"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ReviewOrder.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ReviewOrder.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ReviewOrder.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ReviewOrder.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1563,177 +1632,207 @@
       }
     },
     "s": {
-      "0": 68,
-      "1": 96,
-      "2": 96,
-      "3": 96,
-      "4": 7,
-      "5": 7,
-      "6": 1,
-      "7": 1,
-      "8": 6,
-      "9": 96,
-      "10": 18,
-      "11": 96,
+      "0": 9,
+      "1": 18,
+      "2": 18,
+      "3": 18,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 18,
+      "10": 0,
+      "11": 18,
       "12": 0,
-      "13": 7
+      "13": 0
     },
     "f": {
-      "0": 96,
-      "1": 7,
-      "2": 18,
+      "0": 18,
+      "1": 0,
+      "2": 0,
       "3": 0,
-      "4": 7
+      "4": 0
     },
     "b": {
       "0": [
-        1,
-        6
+        0,
+        0
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "7c1bf01eef310d9506d139fa58550fc597bc4aea"
+    "hash": "86bd1396288f48ca6354ef97047fcdbaa570b3bb"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Products.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Products.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Products.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Products.jsx",
     "statementMap": {
       "0": {
         "start": {
-          "line": 7,
+          "line": 9,
           "column": 17
         },
         "end": {
-          "line": 63,
+          "line": 80,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 8,
-          "column": 34
+          "line": 11,
+          "column": 23
         },
         "end": {
-          "line": 8,
-          "column": 46
+          "line": 11,
+          "column": 52
         }
       },
       "2": {
         "start": {
-          "line": 10,
-          "column": 24
+          "line": 11,
+          "column": 46
         },
         "end": {
-          "line": 13,
-          "column": 3
+          "line": 11,
+          "column": 51
         }
       },
       "3": {
         "start": {
-          "line": 11,
-          "column": 21
+          "line": 12,
+          "column": 26
         },
         "end": {
-          "line": 11,
-          "column": 68
+          "line": 18,
+          "column": 3
         }
       },
       "4": {
         "start": {
-          "line": 12,
-          "column": 4
+          "line": 13,
+          "column": 24
         },
         "end": {
-          "line": 12,
-          "column": 40
+          "line": 13,
+          "column": 26
         }
       },
       "5": {
         "start": {
-          "line": 15,
-          "column": 2
+          "line": 14,
+          "column": 4
         },
         "end": {
-          "line": 17,
-          "column": 9
+          "line": 16,
+          "column": 7
         }
       },
       "6": {
         "start": {
-          "line": 16,
-          "column": 4
+          "line": 15,
+          "column": 6
         },
         "end": {
-          "line": 16,
-          "column": 20
+          "line": 15,
+          "column": 38
         }
       },
       "7": {
         "start": {
-          "line": 18,
-          "column": 21
+          "line": 17,
+          "column": 4
         },
         "end": {
-          "line": 24,
-          "column": 3
+          "line": 17,
+          "column": 32
         }
       },
       "8": {
         "start": {
-          "line": 19,
-          "column": 21
+          "line": 24,
+          "column": 2
         },
         "end": {
-          "line": 21,
-          "column": 6
+          "line": 26,
+          "column": 9
         }
       },
       "9": {
         "start": {
-          "line": 22,
+          "line": 25,
           "column": 4
         },
         "end": {
-          "line": 22,
-          "column": 61
+          "line": 25,
+          "column": 32
         }
       },
       "10": {
         "start": {
-          "line": 26,
-          "column": 22
+          "line": 27,
+          "column": 21
         },
         "end": {
-          "line": 49,
-          "column": 4
+          "line": 33,
+          "column": 3
         }
       },
       "11": {
         "start": {
-          "line": 27,
-          "column": 4
+          "line": 28,
+          "column": 21
         },
         "end": {
-          "line": 48,
+          "line": 30,
           "column": 6
         }
       },
       "12": {
         "start": {
-          "line": 40,
-          "column": 27
+          "line": 31,
+          "column": 4
         },
         "end": {
-          "line": 40,
-          "column": 49
+          "line": 31,
+          "column": 61
         }
       },
       "13": {
         "start": {
+          "line": 36,
+          "column": 22
+        },
+        "end": {
+          "line": 59,
+          "column": 4
+        }
+      },
+      "14": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 58,
+          "column": 6
+        }
+      },
+      "15": {
+        "start": {
           "line": 50,
+          "column": 27
+        },
+        "end": {
+          "line": 50,
+          "column": 49
+        }
+      },
+      "16": {
+        "start": {
+          "line": 60,
           "column": 2
         },
         "end": {
-          "line": 62,
+          "line": 79,
           "column": 4
         }
       }
@@ -1743,178 +1842,231 @@
         "name": "(anonymous_0)",
         "decl": {
           "start": {
-            "line": 7,
+            "line": 9,
             "column": 17
           },
           "end": {
-            "line": 7,
+            "line": 9,
             "column": 18
           }
         },
         "loc": {
           "start": {
-            "line": 7,
+            "line": 9,
             "column": 23
           },
           "end": {
-            "line": 63,
+            "line": 80,
             "column": 1
           }
         },
-        "line": 7
+        "line": 9
       },
       "1": {
         "name": "(anonymous_1)",
         "decl": {
           "start": {
-            "line": 10,
-            "column": 24
+            "line": 11,
+            "column": 35
           },
           "end": {
-            "line": 10,
-            "column": 25
+            "line": 11,
+            "column": 36
           }
         },
         "loc": {
           "start": {
-            "line": 10,
-            "column": 36
+            "line": 11,
+            "column": 46
           },
           "end": {
-            "line": 13,
-            "column": 3
+            "line": 11,
+            "column": 51
           }
         },
-        "line": 10
+        "line": 11
       },
       "2": {
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 15,
-            "column": 12
+            "line": 12,
+            "column": 26
           },
           "end": {
-            "line": 15,
-            "column": 13
+            "line": 12,
+            "column": 27
           }
         },
         "loc": {
           "start": {
-            "line": 15,
-            "column": 18
+            "line": 12,
+            "column": 40
           },
           "end": {
-            "line": 17,
+            "line": 18,
             "column": 3
           }
         },
-        "line": 15
+        "line": 12
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 18,
-            "column": 21
+            "line": 14,
+            "column": 33
           },
           "end": {
-            "line": 18,
-            "column": 22
+            "line": 14,
+            "column": 34
           }
         },
         "loc": {
           "start": {
-            "line": 18,
-            "column": 35
+            "line": 14,
+            "column": 47
           },
           "end": {
-            "line": 24,
-            "column": 3
+            "line": 16,
+            "column": 5
           }
         },
-        "line": 18
+        "line": 14
       },
       "4": {
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 26,
-            "column": 35
+            "line": 24,
+            "column": 12
           },
           "end": {
-            "line": 26,
-            "column": 36
+            "line": 24,
+            "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 26,
-            "column": 48
+            "line": 24,
+            "column": 18
           },
           "end": {
-            "line": 49,
+            "line": 26,
             "column": 3
           }
         },
-        "line": 26
+        "line": 24
       },
       "5": {
         "name": "(anonymous_5)",
         "decl": {
           "start": {
-            "line": 40,
+            "line": 27,
             "column": 21
           },
           "end": {
-            "line": 40,
+            "line": 27,
             "column": 22
           }
         },
         "loc": {
           "start": {
-            "line": 40,
+            "line": 27,
+            "column": 35
+          },
+          "end": {
+            "line": 33,
+            "column": 3
+          }
+        },
+        "line": 27
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 36,
+            "column": 52
+          },
+          "end": {
+            "line": 36,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 65
+          },
+          "end": {
+            "line": 59,
+            "column": 3
+          }
+        },
+        "line": 36
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 21
+          },
+          "end": {
+            "line": 50,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
             "column": 27
           },
           "end": {
-            "line": 40,
+            "line": 50,
             "column": 49
           }
         },
-        "line": 40
+        "line": 50
       }
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 82,
-      "2": 82,
-      "3": 41,
-      "4": 41,
-      "5": 82,
-      "6": 41,
-      "7": 82,
-      "8": 6,
-      "9": 6,
-      "10": 82,
-      "11": 123,
-      "12": 6,
-      "13": 82
+      "0": 9,
+      "1": 18,
+      "2": 27,
+      "3": 18,
+      "4": 18,
+      "5": 18,
+      "6": 27,
+      "7": 18,
+      "8": 18,
+      "9": 9,
+      "10": 18,
+      "11": 0,
+      "12": 0,
+      "13": 18,
+      "14": 27,
+      "15": 0,
+      "16": 18
     },
     "f": {
-      "0": 82,
-      "1": 41,
-      "2": 41,
-      "3": 6,
-      "4": 123,
-      "5": 6
+      "0": 18,
+      "1": 27,
+      "2": 18,
+      "3": 27,
+      "4": 9,
+      "5": 0,
+      "6": 27,
+      "7": 0
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3fa1a24d6b12b3b7f46b16055d787815f1afce52"
+    "hash": "410d91e721a1764071933fbedb6b06476373097b"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Footer.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Footer.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Footer.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Footer.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1965,18 +2117,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 68
+      "0": 9,
+      "1": 9
     },
     "f": {
-      "0": 68
+      "0": 9
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "36aaf0a96495324d7f32c94eb82eae9b72e011b7"
+    "hash": "3dc2abc188f867138f3919ff0db2468ee2663d45"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/App.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -2027,18 +2179,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 95
+      "0": 9,
+      "1": 9
     },
     "f": {
-      "0": 95
+      "0": 9
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "53225237bcb46787133d06a9969ebcf1691faae5"
+    "hash": "89cefa6de44cdabd693bb61e518eb1122b0ec58c"
   },
-  "/Users/bulut/2021/spoko_project_end_user_client/src/index.js": {
-    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/index.js",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/index.js": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/index.js",
     "statementMap": {
       "0": {
         "start": {
@@ -2064,12 +2216,12 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 68,
-      "1": 68
+      "0": 9,
+      "1": 9
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f29c85c319a6644f6af601526790540fe6e66175"
+    "hash": "4c73dc88ba0bdb9ed16ff5b595e87bdca4fe6e9a"
   }
 }
