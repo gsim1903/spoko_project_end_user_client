@@ -5,8 +5,6 @@ describe("Visitor  can ", () => {
         fixture: "articles.json",
       }).as("getArticles");
 
-     
-
       cy.visit("/");
 
       cy.window().its("store").invoke("dispatch", {
@@ -52,18 +50,17 @@ describe("Visitor  can ", () => {
         fixture: "articleShow.json",
       }).as("getSingleArticle");
 
-
       cy.visit("/");
 
       cy.get("[data-cy=article-title]").first().click();
     });
 
-    // it("is expected to ask the user to sign in", () => {
-    //   cy.get("[data-cy=flash-message]").should(
-    //     "contain.text",
-    //     "Please login to view full articles"
-    //   );
-    // });
+    it.only("is expected to ask the user to sign in", () => {
+      cy.get("[data-cy=message-box]").should(
+        "contain.text",
+        "Please login to view full articles"
+      );
+    });
 
     it("is expected to redirect user to login screen", () => {
       cy.url().should("contain", "http://localhost:3000/login");

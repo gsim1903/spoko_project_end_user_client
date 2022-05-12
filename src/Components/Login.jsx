@@ -28,36 +28,81 @@ const Login = () => {
       activeArticle ? navigate(`/article/${activeArticle.id}`) : navigate("/");
     }
   };
+  const options = {
+    padding: "6px 10px",
+    margin: "10px 0px",
+    border: "1px solid lightgrey",
+    borderRadius: "3px",
+    width: "100%",
 
+    style: {
+      base: {
+        fontSize: "20px",
+        "::placeholder": {
+          color: "lightgrey",
+        },
+      },
+      invalid: {
+        backgroundColor: "lightgrey",
+      },
+    },
+  };
+
+  const fieldOptions = {
+    padding: "10px",
+    margin: "10px 10px 10px",
+    border: "1px solid lightgrey",
+    borderRadius: "3px",
+    width: "50%",
+  };
+
+  const labelOptions = { margin: "10px 10px 0", fontSize: "18px" };
   return (
     <>
-      <Container>
-        <Form onSubmit={handleLogin}>
-          <Form.Field
-            name="email"
-            data-cy="login-email"
-            placeholder="your@emails"
-            control={Input}
-            label="Email"
-          />
-          <Form.Field
-            name="password"
-            data-cy="login-password"
-            type="password"
-            control={Input}
-            label="Password"
-            placeholder="Password"
-          />
-          <Form.Field
-            data-cy="submit-button"
-            content="Login"
-            control={Button}
-            color="teal"
-          />
-        </Form>
-      </Container>
+      <h3>Please fill out the form</h3>
+      <label style={labelOptions}>Email</label>
+      <input options={options} />
+      <br />
+      <br />
+      <label style={labelOptions}>Password</label>
+      <input data-cy="password" options={options} />
+      <br />
+      <br />
+      <button data-cy="submit-payment" onClick={handleLogin}>
+        Submit
+      </button>
     </>
   );
+
+  // return (
+  //   <>
+  //     <Container>
+  //       <Form onSubmit={handleLogin}>
+  //         <Form.Field
+  //           name="email"
+  //           data-cy="login-email"
+  //           placeholder="your@emails"
+  //           control={Input}
+  //           label="Email"
+  //         />
+  //         <Form.Field
+  //           name="password"
+  //           data-cy="login-password"
+  //           type="password"
+  //           control={Input}
+  //           label="Password"
+  //           placeholder="Password"
+  //         />
+  //         <Form.Field
+  //           data-cy="submit-button"
+  //           content="Login"
+  //           control={Button}
+  //           color="teal"
+  //         />
+  //       </Form>
+  //     </Container>
+  //   </>
+  // );
 };
 
 export default Login;
