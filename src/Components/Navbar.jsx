@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 
 
 
-const Nav_bar = () => {
+const Navbar = () => {
 
   return (
     <Segment  inverted color="blue" >
@@ -16,7 +16,7 @@ const Nav_bar = () => {
           to={{ pathname: "/" }}
         />
         <Menu.Item
-          data-cy="Football-tab"
+          data-cy="football-tab"
           name="Football"
           as={NavLink}
           to={{ pathname: "/football" }}
@@ -27,9 +27,16 @@ const Nav_bar = () => {
           as={NavLink}
           to={{ pathname: "/golf" }}
         />
+          <Menu.Item
+          data-cy="product-tab"
+          name="Shop"
+          as={NavLink}
+          to={{ pathname: "/products" }
+        }
+        />  
       </Menu>
     </Segment>
   );
 };
 
-export default Nav_bar;
+export default Navbar;
