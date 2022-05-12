@@ -2,19 +2,24 @@ import React, { useEffect } from "react";
 import { Container, Card} from "semantic-ui-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-
+import { toast } from "react-toastify";
 import ArticlesAPI from "../modules/ArticlesAPI";
 
-const SingleArticle = () => {
+const Article = () => {
   let navigate = useNavigate();
   const params = useParams();
-  const { activeArticle } = useSelector((state) => state);
+  const { activeArticle, userAuthenticated } = useSelector((state) => state);
   let article = activeArticle;
 
   useEffect(() => {
     ArticlesAPI.show(parseInt(params.id));
   }, []);
-  
+  useEffect(() => {
+    if (!userAuthenticated) {
+      toast.error("Please login to view full articles");
+      navigate("/login");
+    }
+  }, []);
 
   return (
     <Container text>
@@ -34,4 +39,4 @@ const SingleArticle = () => {
   );
 };
 
-export default SingleArticle;
+export default Article;

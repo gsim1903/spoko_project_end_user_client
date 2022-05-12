@@ -1,6 +1,7 @@
 const initialState = {
   articles: [],
-  products: false,
+  products: [],
+  userAuthenticated: false,
 };
 
 export default initialState;

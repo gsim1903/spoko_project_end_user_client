@@ -15,6 +15,11 @@ const rootReducer = (state, action) => {
         ...state,
         products: action.payload,
       };
+    case "SET_USER_AUTHENTICATED":
+      return {
+        ...state,
+        userAuthenticated: action.payload,
+      };
 
     default:
       return { ...state };
