@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container, Card} from "semantic-ui-react";
+import { Container, Card } from "semantic-ui-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
@@ -10,15 +10,16 @@ const Article = () => {
   const params = useParams();
   const { activeArticle, userAuthenticated } = useSelector((state) => state);
   let article = activeArticle;
-
-  useEffect(() => {
-    ArticlesAPI.show(parseInt(params.id));
-  }, []);
   useEffect(() => {
     if (!userAuthenticated) {
-      toast.error("Please login to view full articles");
       navigate("/login");
+      toast.error("Please login to view full articles", {
+        toastId: "message-box",
+      });
     }
+  }, []);
+  useEffect(() => {
+    ArticlesAPI.show(parseInt(params.id));
   }, []);
 
   return (

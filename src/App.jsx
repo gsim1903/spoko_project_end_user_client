@@ -8,6 +8,7 @@ import Login from "./Components/Login.jsx";
 import Products from './Components/Products'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './Components/Footer.jsx'
+import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       </Routes>
 
       <Footer />
+      <ToastContainer />
     </>
   );
 }

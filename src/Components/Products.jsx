@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Card, Item, Container, List } from "semantic-ui-react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import axios from "axios";
 import ReviewOrder from "./ReviewOrder";
 import ArticlesAPI from "../modules/ArticlesAPI";
@@ -28,7 +28,6 @@ const Products = () => {
     // Need to save order ID here
   };
 
-  
   const productlist = displayProducts(products).map((product) => {
     return (
       <Card key={product.id}>
@@ -70,7 +69,6 @@ const Products = () => {
           {productlist}
         </List>
       </Container>
-      <ToastContainer />
     </>
   );
 };
