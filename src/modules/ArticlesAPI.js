@@ -1,6 +1,7 @@
 import store from "../state/store/configureStore";
 import SpokoAPI from "./SpokoAPI";
 
+
 const { dispatch } = store;
 
 const ArticlesAPI = {
