@@ -20,6 +20,11 @@ const rootReducer = (state, action) => {
         ...state,
         userAuthenticated: action.payload,
       };
+      case "SET_ORDER":
+        return {
+          ...state,
+          order: action.payload,
+        };
 
     default:
       return { ...state };

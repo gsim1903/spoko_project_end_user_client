@@ -52,9 +52,15 @@ const Navbar = () => {
             />
           </>
         )}
+        
       </Menu>
+      
     </Segment>
   );
 };
 
 export default Navbar;
+
+// {/* <>
+// <Menu.Item data-cy="purchase-subscription-button" name="Become a subscriober " /> */}
+// </>

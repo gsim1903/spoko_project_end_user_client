@@ -4,10 +4,14 @@ import { Card, Item, Container, List } from "semantic-ui-react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import ReviewOrder from "./ReviewOrder";
+import store from "../state/store/configureStore";
+import { useSelector } from "react-redux";
 import ArticlesAPI from "../modules/ArticlesAPI";
 
 const Products = () => {
-  const { products } = useSelector((state) => state);
+  const { order } = useSelector((state) => state);
+  const { dispatch } = store;
+  const [products, setProducts] = useState([]);
 
   const displayProducts = (products) => {
     let productsArray = [];
@@ -20,12 +24,22 @@ const Products = () => {
   useEffect(() => {
     ArticlesAPI.fetchProducts();
   }, []);
+
   const addToOrder = async (id) => {
-    const response = await axios.post("https:reqres.in/api/orders", {
-      params: { product_id: id },
-    });
-    toast(response.data.message, { toastId: "message-box" });
-    // Need to save order ID here
+    // const toastSetting = { autoClose: 1500, toastId: "message-box" };
+    if (!order.id) {
+      const response = await axios.post("https://reqres.in/api/orders", {
+        params: { product_id: id },
+      });
+      dispatch({ type: "SET_ORDER", payload: response.data.order });
+      toast(response.data.message, { toastId: "message-box-order-create" });
+    } else {
+      const response = await axios.put("https://reqres.in/api/orders", {
+        params: { order_id: order.id, product_id: id },
+      });
+      dispatch({ type: "SET_ORDER", payload: response.data.order });
+      toast(response.data.message, { toastId: "message-box-order-update" });
+    }
   };
 
   const productlist = displayProducts(products).map((product) => {
@@ -74,3 +88,5 @@ const Products = () => {
 };
 
 export default Products;
+
+
